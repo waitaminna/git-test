@@ -6,15 +6,44 @@
 }
 
 body {
-    margin: 10% 0;
+    margin: 0 20%;
 }
 
 .header {
-    width: 80%;
+    width: 100%;
     border-bottom: 1px solid grey;
+    padding-top: 30px;
 }
 
 h1 {
+    font-size: 3em;
+}
+
+h2 {
     font-size: 2em;
 }
 
+h3 {
+    font-size: 1em;
+}
+
+.article {
+    margin: 20px 0;
+}
+
+.heading {
+    margin-bottom: 20px;
+}
+
+.article p {
+    margin-left: 20px;
+    line-height: 1.5;
+    font-size: 1.5em;
+    font-weight: 200;
+}
+
+.center-horizontal {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
